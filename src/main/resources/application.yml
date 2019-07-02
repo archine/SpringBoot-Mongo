@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mongo-demo
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: test_mongo
+swagger:
+  base-package: com.gj.web
+  description: springboot使用mongo
